@@ -1,0 +1,15 @@
+{
+  "name": "linqjs-amd",
+  "homepage": "https://github.com/lukax/linqjs-amd",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "e49284152b6af85f6ecf5ccea7b680118f496b9a"
+  },
+  "_source": "git://github.com/lukax/linqjs-amd.git",
+  "_target": "~0.1.0",
+  "_originalSource": "linqjs-amd",
+  "_direct": true
+}

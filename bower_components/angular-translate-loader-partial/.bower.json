@@ -1,0 +1,20 @@
+{
+  "name": "angular-translate-loader-partial",
+  "version": "0.2.0",
+  "main": "./angular-translate-loader-partial.s",
+  "dependencies": {
+    "angular": "1.0.8",
+    "angular-translate": "~1.1.1"
+  },
+  "homepage": "https://github.com/PascalPrecht/bower-angular-translate-loader-partial",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.0",
+    "commit": "76b74797f274a915ed2b05cd2acf65d1b9c05a99"
+  },
+  "_source": "git://github.com/PascalPrecht/bower-angular-translate-loader-partial.git",
+  "_target": "~0.2.0",
+  "_originalSource": "angular-translate-loader-partial",
+  "_direct": true
+}

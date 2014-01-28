@@ -1,0 +1,14 @@
+{
+  "name": "angular-seed",
+  "homepage": "https://github.com/angular/angular-seed",
+  "_release": "fabafc96bd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "fabafc96bdc1a53442384214b372f2d83e2d4a63"
+  },
+  "_source": "git://github.com/angular/angular-seed.git",
+  "_target": "*",
+  "_originalSource": "angular-seed",
+  "_direct": true
+}
