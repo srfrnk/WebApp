@@ -1,4 +1,4 @@
-require("requirejs").define("routes/<%=name%>", [], function () {
+require("requirejs").define("routes/<%=nameCamel%>", [], function () {
 	return function (req, res) {
 		res.send("");
 	}
