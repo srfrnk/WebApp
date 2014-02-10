@@ -1,7 +1,12 @@
 define("filters/<%=nameCamel%>", ["app"], function (app) {
-	return app.filter('<%=nameCamel%>', function () {
-		return function (input, arg1) {
+    /*
+        Usage:
+            {{ input | filter-name:arg1:arg2 }}
+
+    */
+	return app.filter("<%=nameCamel%>",[function () {
+		return function (input, arg1,arg2) {
 			return input+":"+arg1;
 		};
-	});
+	}]);
 });
