@@ -21,7 +21,7 @@ require("requirejs").define("models/mongooseHelper", [], function () {
 				mongoose.disconnect();
 			},
 			isConnected: function () {
-				return connection.readyState==connected;
+				return connection.readyState==1;
 			}
 		}
 	}
