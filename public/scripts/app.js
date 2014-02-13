@@ -6,12 +6,10 @@ define("app", [], function () {
 			urlTemplate: '/i18n/{lang}/{part}.json'
 		});
 		$translateProvider.preferredLanguage('en-US');
-		$translatePartialLoaderProvider.addPart("global");
 	}]);
-	app.run(["$rootScope","$translate",function ($rootScope, $translate) {
-		$rootScope.$on('$translatePartialLoaderStructureChanged', function () {
-			$translate.refresh();
-		});
+	app.run(["$rootScope","$translate","$translatePartialLoader",function ($rootScope, $translate,$translatePartialLoader) {
+		$translatePartialLoader.addPart("global");
+		$translate.refresh();
 	}]);
 	return app;
 });

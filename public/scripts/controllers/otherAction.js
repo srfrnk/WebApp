@@ -2,6 +2,8 @@ define("controllers/otherAction", ["app", "directives/myDirective", "services/se
 	return app.controller("otherAction", ["$scope", "$translate", "$translatePartialLoader", "server", "$state", "createDialog",
 		function ($scope, $translate, $translatePartialLoader, server, $state, createDialog) {
 			$translatePartialLoader.addPart("otherAction");
+			$translate.refresh();
+
 			angular.extend($scope, {
 			});
 		}]);
