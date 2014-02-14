@@ -1,4 +1,6 @@
-WebApp 
+# Better get the [yeoman generator for this webapp](https://www.npmjs.org/package/generator-srfrnk-webapp)!
+
+WebApp
 ======
 
 A single-click-to-get-started - skeleton web app with all you need... NodeJS , ExpressJS, AngularJS , MongoDB and all the other goodies...

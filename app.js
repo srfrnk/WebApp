@@ -2,7 +2,7 @@ var requirejs = require("requirejs");
 
 requirejs.config({ deps: ["app"]})
 
-requirejs.define("app", ["routes/index", "routes/login", "routes/view","routes/data"/*server-route:,"routes/<%=nameCamel%>"*/], function (indexRoute, loginRoute,viewRoute,dataRoute/*server-route:,"<%=nameCamel%>Route"*/) {
+requirejs.define("app", ["routes/index", "routes/login", "routes/view","routes/data"], function (indexRoute, loginRoute,viewRoute,dataRoute) {
 	/**
 	 * Module dependencies.
 	 */
@@ -35,13 +35,9 @@ requirejs.define("app", ["routes/index", "routes/login", "routes/view","routes/d
 		app.use(express.errorHandler());
 	}
 
-	//this.write(filepath, newContent);
-
-
 	app.get('/view/:name', viewRoute);
 	app.all('/data/:action', dataRoute);
 	app.get('/*', indexRoute);
-	/*server-route:app.get('set_url_here', <%=nameCamel%>Route);<%='\n\t'%>*/
 
 	http.createServer(app).listen(app.get('port'), function () {
 		console.log('Express server listening on port ' + app.get('port'));
